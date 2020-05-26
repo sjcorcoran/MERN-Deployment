@@ -8,5 +8,5 @@ const express = require("express"),
 app.use(cors());
 app.use(express.json());
 
-require("./config/database.config")(db);
-require("./routes/pet.routes")(app);
+require("./server/config/database.config")(db);
+require("./server/routes/pet.routes")(app);
