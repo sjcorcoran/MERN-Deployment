@@ -1,4 +1,4 @@
-const PetController = require("../controllers/pet.controller");
+const PetController = require("../server/controllers/pet.controller");
 
 module.exports = (app) => {
     app.get("/api/pets", PetController.index); 
